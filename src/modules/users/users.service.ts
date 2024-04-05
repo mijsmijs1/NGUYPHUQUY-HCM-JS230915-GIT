@@ -9,15 +9,15 @@ export class UsersService {
   }
 
   findAll() {
-    return `This action returns all users`;
+    return 'My name is PQ';
   }
 
   findOne(id: number) {
-    return `This action returns a #${id} user`;
+    return 'My name is PQ';
   }
 
   update(id: number, updateUserDto: UpdateUserDto) {
-    return `This action updates a #${id} user`;
+    return id;
   }
 
   remove(id: number) {
